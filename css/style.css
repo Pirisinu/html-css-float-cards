@@ -17,3 +17,12 @@ section p{
   width: 80%;
   margin: auto;
 }
+.card{
+  width: 450px;
+  height: 150px;
+  margin: 40px 10px;
+  background-color: darkblue;
+}
+.float-left{
+  float: left;
+}
