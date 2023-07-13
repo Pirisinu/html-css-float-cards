@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: 'Fredoka', sans-serif;
 }
+/* header */
 header h1{
   text-align: center;
   color: #E53170;
@@ -13,16 +14,44 @@ section p{
   text-align: center;
   margin: 10px;
 }
+/* Main */
 .container{
   width: 80%;
   margin: auto;
 }
 .card{
-  width: 450px;
-  height: 150px;
   margin: 40px 10px;
-  background-color: darkblue;
+  background-color: black;
+  color: white;
+}
+img{
+  height: 100px;
+  width: 100px;
 }
 .float-left{
   float: left;
+}
+.dati-persona{
+  width: calc(100% - 100px);
+  padding: 10px;
+}
+.nome{
+  font-weight: 800;
+  font-size: 1.3rem;
+}
+.lavoro{
+
+  
+}
+.email{
+  text-decoration: none;
+  color: #00BDF3;
+}
+.email:hover{
+  color: white;
+  background-color: #00BDF3;
+  border-radius: 5px;
+}
+.dati-persona p, a{
+  width: 100%;
 }
