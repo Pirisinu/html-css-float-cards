@@ -16,14 +16,20 @@ section p{
 }
 /* Main */
 main div{
-  width: 400px;
+  width: 100%;
 }
 .container{
   width: 80%;
   margin: auto;
 }
+.clearfix::after{
+  content: "";
+  display: table;
+  clear: both;
+}
 .card{
-  margin: 40px 10px;
+  width: 450px;
+  margin: 10px 20px;
   background-color: black;
   color: white;
 }
